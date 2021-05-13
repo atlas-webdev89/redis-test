@@ -1,0 +1,23 @@
+{
+    "name": "atlas/redis",
+    "require": {
+        "pimple/pimple": "^3.4",
+        "predis/predis": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AtlasComp",
+            "email": "web.dev89@yandex.by",
+            "homepage": "https://github.com/doroshuk89"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "app/Core",
+            "Model\\": "app/Model",
+            "Controller\\": "app/Controller",
+            "Library\\": "app/Library"  
+        }
+    }
+}
